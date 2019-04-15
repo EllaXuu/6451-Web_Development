@@ -1,0 +1,13 @@
+body{
+	background-color: #ffc8c8;
+}
+li,p{
+	font-size: 16px;
+}
+.text-focus{
+    color: #000000;
+	font-size: 20px;
+}
+.title{
+	font-size: 45px;
+}
