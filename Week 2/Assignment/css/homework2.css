@@ -1,0 +1,38 @@
+body{
+	background-color: #ffc8c8;
+}
+li,p{
+	font-size: 16px;
+}
+.text-focus{
+    color: #000000;
+	font-size: 20px;
+}
+.title{
+	font-size: 45px;
+}
+
+td {
+    border-style: solid;
+    border-width: thin;
+    /*height: 27px; */
+    /*set a fixed height*/
+    /*width: auto; */
+    /*set the width adjusted by the longest length of the text in cell*/
+    padding: 7px;
+    text-align: center;
+    background-color: #F1F1F1;
+}
+
+.header{
+    background-color: #9E9E9E;
+    color: #000000;
+}
+
+#gameTable{
+    margin:auto
+}
+h2{
+    font-size: 24px;
+    text-shadow: 3px 3px 3px #08d9d6;
+}
