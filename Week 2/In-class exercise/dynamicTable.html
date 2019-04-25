@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <title>Dynamic Table</title>
+        <link rel="stylesheet" href="dynamicTable.css">
+    </head>
+
+	<body>
+
+		<h3>Creating a simple table with Javascript<h3/>
+		<div>
+		<table id="myTable">
+			<tr  id="gradeHeaders">
+				<td>ID</td>
+				<td>Class Number</td>
+				<td>Class Name</td>
+			</tr>
+		</table>
+		</div>
+		<br/>
+		<div>
+		  <!-- use the next line for adding a row and comment out the rest of the buttons -->
+		  <button id="addRow">Add Row</button>
+		
+ 		  <!-- the next 2 lines add 2 buttons for adding a new column and filling it w/ a grade -->
+		  <button id="addColumn">Add Column</button>
+		  <button id="addGrade">Update Grade</button>
+		</div> 
+	</body>
+	<!-- Note: because I positioned the script AFTER the HTML, there's no need to add the onload! -->
+	<!-- Note: if you're learning to create a dynamic table, first comment out the next line to see what you have in your html -->
+	<script src="dynamicTable.js"></script>
+	<script src="dynamicTableAddRow.js"></script>
+	<script src="dynamicTableAddColumn.js"></script>
+</html>
