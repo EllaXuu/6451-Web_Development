@@ -1,0 +1,147 @@
+body{
+	background-color: #ffc8c8;
+}
+li,p{
+	font-size: 16px;
+}
+.text-focus{
+  color: #000000;
+	font-size: 20px;
+}
+.title{
+	font-size: 45px;
+}
+
+td {
+    border-style: solid;
+    border-width: thin;
+    /*height: 27px; */
+    /*set a fixed height*/
+    /*width: auto; */
+    /*set the width adjusted by the longest length of the text in cell*/
+    padding: 7px;
+    text-align: center;
+    background-color: #F1F1F1;
+}
+
+.header{
+    background-color: #9E9E9E;
+    color: #000000;
+}
+
+#gameTable{
+    margin:auto;
+}
+#addMoive{
+  position: relative;
+  left: 5px;
+}
+h2{
+    font-size: 24px;
+    text-shadow: 3px 3px 3px #08d9d6;
+}
+.tableImg{
+    border: 1px solid #ddd;
+    border-radius: 1px;
+    padding: 0px;
+
+    width: 80px;
+    height: 100px;
+    max-height: 200px;
+    max-width: 90px;
+
+    text-align:center;
+    margin:auto;
+
+}
+
+/* display the tooltip in line with relative positioning */
+.tooltip {
+    display: inline;
+    position: relative;
+}
+/* create a rounded box to display the tooltip and float it above the link */
+.tooltip:hover:after {
+    background: rgba(64, 64, 64,.8);/* set it to 80% opacity */
+    border-radius: 5px;/* create slightly rounded corners */
+    bottom: 0px;
+    color: white;/* text will be white */
+    content: attr(title);/* use the title as tooltip content */
+    left: 110%;
+    padding: 2px 2px;
+    position: absolute;
+    z-index: 98;
+    width: 150px;
+}
+
+/* use the before pseudo element to add a little arrow before the tooltip is created */
+.tooltip:hover:before{
+    border: solid;
+    border-color: #333 transparent;
+    border-width: 6px 6px 0 6px;
+    bottom: 0px;
+    content: "";
+    left: 50%;
+    position: absolute;
+    z-index: 99;
+}
+
+#panel {
+  margin-bottom: 15px;
+}
+
+#panel h3
+{
+  margin:0;
+  padding:2px 0 5px 5px;
+  background-color:#616161;
+  border-bottom:1px solid #fff;
+  color: white;
+  font-weight:normal;
+  cursor: pointer;
+  cursor: hand;
+}
+
+#panel div
+{
+  height:180px;
+  background-color: #F1F1F1;
+  border-bottom:1px solid #fff;
+  position: relative;
+}
+
+#panel p {
+  text-align: left;
+  margin: 0 10px 0 10px;
+  padding: 10px;
+}
+.tabs div {
+    padding:0px;
+    width:600px;
+    background:#fff;
+}
+
+.tabs li {
+    list-style:none;
+    display:inline;
+}
+
+.tabs a {
+    padding:5px 10px;
+    display:inline-block;
+/*    background:#666;
+    color:#fff;*/
+    background-color: white;
+    color:black;
+    text-decoration:none;
+}
+
+.tabs a.active {
+    /*background:#fff;*/
+    /*color:#000;*/
+    background-color: black;
+    color:white;
+}
+
+
+
