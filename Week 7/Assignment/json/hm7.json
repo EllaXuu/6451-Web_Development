@@ -1,0 +1,74 @@
+{
+	"people":[
+		{
+			"name":"Ned",
+			"age":50,
+			"gender":"male",
+			"location":{
+				"street":"5 Main St",
+				"city":"Boston"
+			},
+			"DateOfJoining":2005
+		},
+		{
+			"name":"Jaime",
+			"age":30,
+		    "gender":"male",
+			"location":{
+				"street":"48 Main St",
+				"city":"Boston"
+			},
+			"DateOfJoining":2000
+		},
+		{
+			"name":"Daenerys",
+			"age":25,
+			"gender":"female",
+			"location":{
+				"street":"36 Dartmouth St",
+				"city":"Malden"
+			},
+			"DateOfJoining":2008
+		},
+		{
+			"name":"Arya",
+			"age":16,
+			"gender":"female",
+			"location":{
+				"street":"183 Pleasant St",
+				"city":"Malden"
+			},
+			"DateOfJoining":2010
+		},
+		{
+			"name":"Sansa",
+			"age":22,
+			"gender":"female",
+			"location":{
+				"street":"13 Pleasant St",
+				"city":"Malden"
+			},
+			"DateOfJoining":2011
+		},
+		{
+			"name":"Jon",
+			"age":26,
+			"gender":"male",
+			"location":{
+				"street":"39 Florence St",
+				"city":"Boston"
+			},
+			"DateOfJoining":2007
+		},
+		{
+			"name":"Cersei",
+			"age":30,
+			"gender":"female",
+			"location":{
+				"street":"48 Main St",
+				"city":"Boston"
+			},
+			"DateOfJoining":2000
+		}
+	]
+}
