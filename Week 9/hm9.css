@@ -1,0 +1,58 @@
+
+body{
+
+  	background-color: black;
+}
+.content{
+	width: 30%;
+	margin: 40px auto;
+	padding: 20px;
+	background: white;
+	border-radius: 5px;
+
+}
+.content .form-title{
+	text-align: center;
+  font-family: 'Lobster', cursive;
+}
+
+.content form div{
+	margin-bottom: 10px;
+  /*font-family: 'Cabin', sans-serif;*/
+  font-family: 'Asap', sans-serif;
+}
+
+.content form p{
+	text-align: center;
+}
+
+.content form p a{
+	text-decoration: underline;
+}
+.message{
+  width: 100%;
+  margin: 5px;
+  padding: 8px;
+  border-radius: 5px;
+  list-style: none;
+  /*ewmove the . list sign*/
+}
+.textinput{
+
+	width: 100%;
+  	/*padding: 12px 20px;*/
+  	/*margin: 8px 0;*/
+  	display: inline-block;
+  	border: 1px solid #ccc;
+  	box-sizing: border-box;
+} 
+
+.registerbtn{
+	background-color: #e23e57;
+  	/*color: white;*/
+  	padding: 14px 20px;
+  	margin: 8px 0;
+ 	border: none;
+  	cursor: pointer;
+ 	width: 100%;
+}
